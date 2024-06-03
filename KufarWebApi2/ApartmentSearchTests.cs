@@ -67,7 +67,7 @@ namespace KufarWebApi2
         }
 
         [Fact]
-        public void TestInvalidPolygon()
+        public void TestInvalidField()
         {
             var apartments = new List<JObject>();
             var invalidField = new List<Point>
